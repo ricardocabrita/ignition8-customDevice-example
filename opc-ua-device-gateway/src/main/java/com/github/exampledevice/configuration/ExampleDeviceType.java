@@ -1,4 +1,4 @@
-package com.github.exampledevice;
+package com.github.exampledevice.configuration;
 
 import com.github.exampledevice.ExampleDevice;
 import com.github.exampledevice.configuration.settings.ExampleDeviceSettings;
@@ -15,9 +15,9 @@ public class ExampleDeviceType extends DeviceType {
 
     public static final String TYPE_ID = "ExampleDevice";
 
-    public ExampleDeviceType(){
+    public ExampleDeviceType() {
         //DisplayName and Description are retrieved from ExampleDevice.properties on resources
-        super(TYPE_ID, "ExampleDevice.Meta.DisplayName", "ExampleDevice.Meta.Description")
+        super(TYPE_ID, "ExampleDevice.Meta.DisplayName", "ExampleDevice.Meta.Description");
     }
 
     @Override

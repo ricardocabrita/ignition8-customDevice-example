@@ -7,10 +7,7 @@ import java.util.logging.Logger;
 import org.eclipse.milo.opcua.stack.core.types.builtin.DataValue;
 import org.eclipse.milo.opcua.stack.core.types.builtin.StatusCode;
 import org.eclipse.milo.opcua.stack.core.types.builtin.Variant;
-import com.lz.lip.coimbra.devices.configuration.settings.ExampleDeviceSettings;
-
-import org.apache.log4j.Logger;
-import com.inductiveautomation.ignition.common.util.LoggerEx;
+import com.github.exampledevice.configuration.settings.ExampleDeviceSettings;
 
 public class ExampleDriver implements Runnable {
   public String name;
@@ -25,7 +22,8 @@ public class ExampleDriver implements Runnable {
   DataValue id;
   DataValue[] channels = new DataValue[numberChans];
 
-  public final LoggerEx log = new LoggerEx(Logger.getLogger(getClass()));
+  //(Logger.getLogger(getClass()))
+  public final Logger log = Logger.getLogger(ExampleDriver.class.getName());
 
   public ExampleDriver(ExampleDeviceSettings settings, String name){
     this.settings = settings;

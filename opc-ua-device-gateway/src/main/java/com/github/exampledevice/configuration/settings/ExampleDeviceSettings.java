@@ -1,4 +1,4 @@
-package com.github.exampledevice;
+package com.github.exampledevice.configuration.settings;
 
 import com.inductiveautomation.ignition.gateway.localdb.persistence.Category;
 import com.inductiveautomation.ignition.gateway.localdb.persistence.IntField;

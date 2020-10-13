@@ -14,9 +14,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.inductiveautomation.examples</groupId>
+            <groupId>com.github.exampledevice</groupId>
             <artifactId>opc-ua-device-gateway</artifactId>
-            <version>${project.version}</version>
+            <version>0.0.1</version>
         </dependency>
     </dependencies>
 

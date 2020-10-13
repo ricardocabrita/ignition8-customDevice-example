@@ -10,9 +10,11 @@ import com.github.exampledevice.ExampleDriver;
 
 import com.inductiveautomation.ignition.gateway.opcua.server.api.DeviceContext;
 
+import org.eclipse.milo.opcua.sdk.server.nodes.UaFolderNode;
+
 public class ExampleDevice extends AbstractTagDevice {
     private final DeviceContext deviceContext;
-    private final PulserDeviceSettings settings;
+    private final ExampleDeviceSettings settings;
     private final String typeID;
 
     private UaFolderNode configFolder;
@@ -44,6 +46,7 @@ public class ExampleDevice extends AbstractTagDevice {
         super.onStartup();
 
         //Create whatever device folders you want, these are just an example
+        //don't forget to instance UaFolderNode objects
         configFolder = super.addFolder(rootNode, "Config");
         channelsFolder = super.addFolder(rootNode, "Channels");
 

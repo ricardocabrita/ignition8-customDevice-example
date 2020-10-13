@@ -4,7 +4,11 @@
     <list default="true" id="61cdbd3e-7961-4115-b4d0-9762816fb3c7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/opc-ua-device-build/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/opc-ua-device-build/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opc-ua-device-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/opc-ua-device-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opc-ua-device-gateway/src/main/java/com/github/exampledevice/ExampleDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/opc-ua-device-gateway/src/main/java/com/github/exampledevice/ExampleDevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opc-ua-device-gateway/src/main/java/com/github/exampledevice/ExampleDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/opc-ua-device-gateway/src/main/java/com/github/exampledevice/ExampleDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opc-ua-device-gateway/src/main/java/com/github/exampledevice/configuration/ExampleDeviceType.java" beforeDir="false" afterPath="$PROJECT_DIR$/opc-ua-device-gateway/src/main/java/com/github/exampledevice/configuration/ExampleDeviceType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opc-ua-device-gateway/src/main/java/com/github/exampledevice/configuration/settings/ExampleDeviceSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/opc-ua-device-gateway/src/main/java/com/github/exampledevice/configuration/settings/ExampleDeviceSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +44,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602583572543</updated>
-      <workItem from="1602583573826" duration="3141000" />
+      <workItem from="1602583573826" duration="5209000" />
     </task>
     <servers />
   </component>
@@ -52,5 +56,9 @@
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="1829" y="103" key="SettingsEditor/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1602585617178" />
+    <state x="2077" y="89" width="730" height="924" key="find.popup" timestamp="1602587524580">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2077" y="89" width="730" height="924" key="find.popup/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1602587524580" />
   </component>
 </project>
