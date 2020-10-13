@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.lz.lip.coimbra</groupId>
-        <artifactId>lz-lip-devices</artifactId>
+        <groupId>com.github.exampledevice</groupId>
+        <artifactId>simple-device</artifactId>
         <version>0.0.1</version>
     </parent>
 

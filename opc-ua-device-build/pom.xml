@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.lz.lip.coimbra</groupId>
-        <artifactId>lz-lip-devices</artifactId>
+        <groupId>com.github.exampledevice</groupId>
+        <artifactId>simple-device</artifactId>
         <version>0.0.1</version>
     </parent>
 
@@ -14,7 +14,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.lz.lip.coimbra</groupId>
+            <groupId>com.inductiveautomation.examples</groupId>
             <artifactId>opc-ua-device-gateway</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -44,8 +44,8 @@
                         </projectScope>
                     </projectScopes>
 
-                    <moduleId>com.inductiveautomation.ignition.examples.tagdriver</moduleId>
-                    <moduleName>${module-name}</moduleName>
+                    <moduleId>com.github.exampledevice.simpledevice</moduleId>
+                    <moduleName>${module-name}-${project.version}</moduleName>
                     <moduleDescription>${module-description}</moduleDescription>
                     <moduleVersion>${project.version}</moduleVersion>
                     <requiredIgnitionVersion>${ignition-platform-version}</requiredIgnitionVersion>
@@ -63,7 +63,7 @@
                     <hooks>
                         <hook>
                             <scope>G</scope>
-                            <hookClass>com.lz.lip.coimbra.devices.ModuleHook</hookClass>
+                            <hookClass>com.github.exampledevice.ModuleHook</hookClass>
                         </hook>
                     </hooks>
                 </configuration>

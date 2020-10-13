@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61cdbd3e-7961-4115-b4d0-9762816fb3c7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/opc-ua-device-gateway/src/main/resources/com/github/exampledevice/customDriver.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opc-ua-device-build/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/opc-ua-device-build/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opc-ua-device-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/opc-ua-device-gateway/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +13,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1iop0797mXeVvG1bLdP45oJpsI7" />
   <component name="ProjectViewState">
@@ -31,7 +40,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602583572543</updated>
-      <workItem from="1602583573826" duration="2401000" />
+      <workItem from="1602583573826" duration="3141000" />
     </task>
     <servers />
   </component>
